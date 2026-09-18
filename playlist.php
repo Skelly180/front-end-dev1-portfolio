@@ -1,24 +1,14 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Mijn portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-	<header>
-		<div class="wrapper">
-			<h1>playlist</h1>
-			<nav>
-				<a href="index.html">homepagina</a>
-				<a href="hobbies.html">hobbies</a>
-				<a href="projects.html">projects</a>
-				<a href="aboutme.html">about me</a>
-				<a href="playlist.html">playlist</a>
-				<a href="contact.html">Contact</a>
-			</nav>
-		</div>
-	</header>
+	<?php require_once 'header.php'; ?>
 	<main>
 		<div class="wrapper">
 			<h2>Mijn favoriete 5 liedjes</h2>
@@ -28,14 +18,12 @@
 				<li><a href="https://www.youtube.com/watch?v=M2uSlM-utPw">Royalistic - When the sky falls</a></li>
 				<li><a href="https://www.youtube.com/watch?v=nBmhCIW7KCA">Suzan en Freek - Als het avond is</a></li>
 				<li><a href="https://www.youtube.com/watch?v=xncTsAkRir4">Rapper Sjors - Zomer in Nederland</a></li>
-				<li><a href="https://www.youtube.com/watch?v=-dn7FtPVvoA">Zanger Rinus - Met Romana op de scooter</a></li>
+				<li><a href="https://www.youtube.com/watch?v=-dn7FtPVvoA">Zanger Rinus - Met Romana op de scooter</a>
+				</li>
 			</ul>
 		</div>
 	</main>
-	<footer>
-		<div class="wrapper">
-			<p>&copy; Joost, 2022-2026</p>
-		</div>
-	</footer>
+	<?php require_once 'footer.php'; ?>
 </body>
+
 </html>

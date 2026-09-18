@@ -1,30 +1,21 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Mijn portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-	<header>
-		<div class="wrapper">
-			<h1>Hobbies</h1>
-			<nav>
-				<a href="index.html">homepagina</a>
-				<a href="hobbies.html">hobbies</a>
-				<a href="projects.html">projects</a>
-				<a href="aboutme.html">about me</a>
-				<a href="playlist.html">playlist</a>
-				<a href="contact.html">contact</a>
-			</nav>
-		</div>
-	</header>
+	<?php require_once 'header.php'; ?>
 	<main>
 		<div class="wrapper">
 			<h2>Hobbies</h2>
 			<div class="hobby">
 				<h3>Extreem strijken</h3>
-				<p>Strijken op extreme plaatsen. Voorbeelden: Strijken in een helicopter, strijken bij een actieve vulkaan enz.</p>
+				<p>Strijken op extreme plaatsen. Voorbeelden: Strijken in een helicopter, strijken bij een actieve
+					vulkaan enz.</p>
 				<img src="img/extreemstrijken.jpg" alt="extreem strijken">
 			</div>
 			<div class="hobby">
@@ -50,4 +41,5 @@
 		</div>
 	</footer>
 </body>
+
 </html>
